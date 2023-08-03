@@ -1,0 +1,11 @@
+function addNumber (number) {
+   let result = 0
+    for (let i=1; i<=number; i++) {
+    result += i;
+    }
+  return result;
+}
+
+console.log(addNumber(600));
+console.log(addNumber(13));
+console.log(addNumber(4));
